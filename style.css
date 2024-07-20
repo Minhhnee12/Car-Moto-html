@@ -1,0 +1,35 @@
+*{
+    margin:0;
+    box-sizing: border-box;
+}
+#container{
+    font-family: "Arial";
+}
+#nav{
+    border: 1px solid blue;
+    text-align: left;
+    font-size: 20px;
+    color: blue;
+    padding: 0px 5px 0px 0px;
+    border-collapse: collapse;
+    float: left;
+    width: 250px;
+}
+#nav tr, #nav th{
+    border: 1px solid blue;
+    padding: 5px 1em 5px 5px;
+}
+#content{
+    width: 1024px;
+    color: red;
+    text-align: center;
+}
+#content img{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+hr{
+    border: 2px solid red;
+    width: 60%;
+    margin: 8px auto;
+}
